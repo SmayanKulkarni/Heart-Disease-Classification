@@ -13,8 +13,6 @@ This project aims to develop a heart disease classification model using various 
 The project directory includes the following key files and folders:
 
 - **`data/`**: Contains raw datasets and preprocessing scripts.
-- **`notebooks/`**: Jupyter notebooks for exploratory data analysis and model training.
-- **`src/`**: Source code for data preprocessing, model training, and evaluation.
 - **`README.md`**: This file, providing an overview of the project.
 - **`requirements.txt`** : This file contains the necessary libraries to be present in the environment to run the model.
 
