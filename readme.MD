@@ -19,4 +19,4 @@ The project directory includes the following key files and folders:
 #### **Accuracy achieved : 84.79%**
 
 
-##### **Dataset used : https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data**
+##### **Dataset used : https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data/versions/2?select=cleveland.csv**
