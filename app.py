@@ -7,7 +7,7 @@ import pickle
 model = pickle.load(open('model.pkl', 'rb'))
 
 # Load the DataFrame to get meaning of options
-df = pd.read_csv('https://github.com/SmayanKulkarni/Heart-Disease-Prediction-Using-Machine-Learning/blob/main/Data/heart-disease.csv')
+df = pd.read_csv('/media/smayan/ohio/Milestone Project 1/Data/heart-disease.csv')
 
 # Define the input fields for the app
 def user_input_features():
