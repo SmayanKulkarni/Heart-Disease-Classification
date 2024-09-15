@@ -4,8 +4,6 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 import pickle
 
-# Load the pre-trained model
-# Replace 'model.pkl' with your trained model path
 model = pickle.load(open('model.pkl', 'rb'))
 
 # Load the DataFrame to get meaning of options
@@ -115,7 +113,4 @@ st.write(heart_disease_status[prediction][0])
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-# For reproducibility in Docker or other environments
-if __name__ == '__main__':
-    import os
-    st.write(f"Environment: {os.getenv('ENVIRONMENT', 'local')}")
+
