@@ -18,22 +18,25 @@ def user_input_features():
         2: 'Non-Anginal Pain', 
         3: 'Asymptomatic'
     }
+    cp_options = cp_meanings.values()
     
     fbs_meanings = {0: 'No', 1: 'Yes'}
+    fbs_options = fbs_meanings.values()
     
     restecg_meanings = {
         0: 'Normal', 
         1: 'Having ST-T Wave Abnormality', 
         2: 'Showing Left Ventricular Hypertrophy'
     }
-    ()
+    restecg_options = restecg_meanings.values()
     exang_meanings = {0: 'No', 1: 'Yes'}
-    
+    exang_options= exang_meanings.values()
     slope_meanings = {
         0: 'Upsloping', 
         1: 'Flat', 
         2: 'Downsloping'
     }
+    slope_options = slope_meanings.values()
     
     thal_meanings = {
         1: 'Normal', 
@@ -41,6 +44,7 @@ def user_input_features():
         6: 'Reversible Defect', 
         7: 'Unknown'
     }
+    thal_options = thal_meanings.values()
 
     # Create user input fields
     age = st.sidebar.slider('Age', 20, 80, 50)
