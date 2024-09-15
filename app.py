@@ -6,16 +6,11 @@ import pickle
 
 model = pickle.load(open('model.pkl', 'rb'))
 
-# Load the DataFrame to get meaning of options
-df = pd.read_csv('/media/smayan/ohio/Milestone Project 1/Data/heart-disease.csv')
-
 # Define the input fields for the app
 def user_input_features():
     # Define the options and their meanings based on the DataFrame
-    sex_options = df['sex'].unique()
     sex_meanings = {0: 'Female', 1: 'Male'}
     
-    cp_options = df['cp'].unique()
     cp_meanings = {
         0: 'Typical Angina', 
         1: 'Atypical Angina', 
@@ -23,27 +18,22 @@ def user_input_features():
         3: 'Asymptomatic'
     }
     
-    fbs_options = df['fbs'].unique()
     fbs_meanings = {0: 'No', 1: 'Yes'}
     
-    restecg_options = df['restecg'].unique()
     restecg_meanings = {
         0: 'Normal', 
         1: 'Having ST-T Wave Abnormality', 
         2: 'Showing Left Ventricular Hypertrophy'
     }
-    
-    exang_options = df['exang'].unique()
+    ()
     exang_meanings = {0: 'No', 1: 'Yes'}
     
-    slope_options = df['slope'].unique()
     slope_meanings = {
         0: 'Upsloping', 
         1: 'Flat', 
         2: 'Downsloping'
     }
     
-    thal_options = df['thal'].unique()
     thal_meanings = {
         1: 'Normal', 
         3: 'Fixed Defect', 
