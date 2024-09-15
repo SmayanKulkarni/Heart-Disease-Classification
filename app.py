@@ -10,6 +10,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 def user_input_features():
     # Define the options and their meanings based on the DataFrame
     sex_meanings = {0: 'Female', 1: 'Male'}
+    sex_options = sex_meanings.values()
     
     cp_meanings = {
         0: 'Typical Angina', 
