@@ -20,3 +20,5 @@ The project directory includes the following key files and folders:
 
 
 ##### **Dataset used : https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data/versions/2?select=cleveland.csv**
+##### **Deployed Model : https://heart-disease-prediction-using-machine-learning100.streamlit.app/**
+
