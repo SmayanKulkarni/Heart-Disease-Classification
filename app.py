@@ -21,7 +21,7 @@ def user_input_features():
     cp_options = cp_meanings.values()
     
     fbs_meanings = {0: 'No', 1: 'Yes'}
-    fbs_options = fbs_meanings.values()
+    fbs_options = fbs_meanings.keys()
     
     restecg_meanings = {
         0: 'Normal', 
